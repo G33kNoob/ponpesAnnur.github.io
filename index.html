@@ -32,6 +32,28 @@
         .img_logo{
             width:200px;
         }
+        .banner-text{
+            text-shadow: 3px 2px 5px black;
+             margin-top: 60px;
+        }
+
+        @media screen and (max-width:1000px) {
+            body{
+                font-size:13px;
+            }
+                .banner{
+                    height:350px;
+                }
+                .banner-text{
+                    text-shadow: 3px 2px 5px black;
+                    margin-top: 66px;
+                    text-align:center ;
+                }
+                .btn-line{
+                    font-size: 16px;
+                    padding: 10px !important;
+                }
+        }
     </style>
 </head>
 <body>
@@ -69,7 +91,7 @@
 
 
     <div class="banner p-5">
-        <div style="text-shadow: 3px 2px 5px black; margin-top: 100px;" class="container text-white">
+        <div  class="container text-white banner-text">
             <p class="m-0 animate__animated animate__fadeInTopLeft">Selamat Datang Di Website Resmi</p>
             <h1 class="animate__animated animate__fadeInTopLeft">Pondok Pesantren <br> AN-NUR Dukuhdalem</h1>
         </div>
@@ -79,9 +101,9 @@
         <div class="row" >
             <div  class="col-md-12 bg-success shadow rounded p-3" style="margin-top: -50px;">
                 <div class="d-flex ">
-                    <button class="btn text-white btn-lg m-auto">SMPIT AN-NUR</button>
-                    <button class="btn text-white btn-lg m-auto">Pondok Pesantren AN-NUR</button>
-                    <button class="btn text-white btn-lg m-auto">SMAIT AN-NUR</button>
+                    <button class="btn text-white btn-line btn-lg m-auto">SMPIT AN-NUR</button>
+                    <button class="btn text-white btn-line btn-lg m-auto">Pondok Pesantren AN-NUR</button>
+                    <button class="btn text-white btn-line btn-lg m-auto">SMAIT AN-NUR</button>
                 </div>
             </div>
         </div>
