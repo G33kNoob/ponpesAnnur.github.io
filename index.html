@@ -13,6 +13,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <style>
+        .zoom {
+            -webkit-transition: all 0.35s ease-in-out;
+            -moz-transition: all 0.35s ease-in-out;
+            transition: all 0.35s ease-in-out;
+            cursor: -webkit-zoom-in;
+            cursor: -moz-zoom-in;
+            cursor: zoom-in;
+        }
+
+        .zoom:hover,
+        .zoom:active,
+        .zoom:focus {
+            /**adjust scale to desired size, 
+add browser prefixes**/
+            -ms-transform: scale(2.5);
+            -moz-transform: scale(2.5);
+            -webkit-transform: scale(2.5);
+            -o-transform: scale(2.5);
+            transform: scale(2.5);
+            position: relative;
+            z-index: 100;
+        }
+
         .bg-success {
             background-color: #169c39 !important;
         }
@@ -170,37 +193,37 @@
 
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_1.jpg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_2.jpg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_3.jpeg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_3.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_4.jpeg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_4.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_5.jpeg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_5.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_6.jpeg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_6.jpeg" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <a href="#" class="d-block mb-4 h-100">
-                                    <img class="img-fluid img-thumbnail" src="./image/photo_7.jpeg" alt="">
+                                    <img class="img-fluid img-thumbnail zoom " src="./image/photo_7.jpeg" alt="">
                                 </a>
                             </div>
                         </div>
